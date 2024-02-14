@@ -28,10 +28,6 @@ body {
   padding: 0 45px;
 }
 
-.img {
-  width: 100%;
-}
-
 img {
   width: 100%;
 }
@@ -52,6 +48,7 @@ img {
 
 .preparation-section {
   background-color: var(--Rose-White);
+  border-radius: 15px;
   padding: 25px;
 }
 
@@ -125,4 +122,14 @@ hr {
 
 .figure {
   color: var(--Nutmeg);
+}
+
+@media only screen and (min-width: 768px) {
+  .img {
+    padding: 45px 45px 0 45px;
+  }
+
+  img {
+    border-radius: 15px;
+  }
 }
